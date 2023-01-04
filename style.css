@@ -15,7 +15,8 @@ ul li{
 .header{
     display: flex;
     justify-content: space-between;
-    background: rgba(40, 65, 255, 0.598);
+    background: #dcd2d998;
+    padding: 0 50px;
 }
 .logo{
     text-align: center;
@@ -27,8 +28,7 @@ ul li{
     border-radius: 50%;
 }
 .header_logo{
-    
-    font-size: 50px;
+    font-size: 30px;
     font-weight: 500;
     color: #191f36;
 }
@@ -50,21 +50,112 @@ ul li{
     text-transform: uppercase;
 }
 
+.nav_container ul li a:hover{
+    color: #06abab;
+    transition: 0.5s;
+
+    
+}
+
 /* hero section css */
 
 .hero_section{
-    background: rgb(10 0 21 / 63%);
-    height: 800px;
+    background: #edeceea1;
     width: 100%;
     display: flex;
+    /* padding: 0 100px; */
+    justify-content: space-between;
 }
 .content{
-    text-align: center;
+    width: 40%;
+    text-align: left;
+    margin: auto;
     
 }
+.content h4{
+    font-size: 30px;
+    font-weight: 500;
+}
+.content h3{
+    font-size: 50px;
+    font-weight: 600;
+}
+.content p{
+    font-size: 25px;
+    font-weight: 400;
+}
+.btn{
+    padding: 10px 20px;
+    border-radius: 5px;
+    background: #2b75dd;
+    color: #ffff;
+    margin-top: 30px;
+    border: none;
+    outline: none;
+}
+.btn:hover{
+    background-color: rgb(221, 108, 108);
+    transition: 0.5s;
+}
 .hero_img{
+    width: 40%;
+    padding-right: 30px;
+}
+.hero_img img{
+    width: 100%;
+    
+}
+
+
+/* about section css */
+
+.about_section{
+    width: 100%;
+    /* padding-left: 100px;
+    padding-right: 100px; */
+    display: flex;
+}
+.about_section content{
+    width: 40%;
+}
+.about_img{
+    width: 40%;
     margin: auto;
 }
-.img_bg{
-    background: antiquewhite;
+.about_img img{
+    width: 80%;
+    
+
 }
+.content h4{
+    font-size: 30px;
+    font-weight: 600;
+    color: #191f36;
+}
+.content h3{
+    font-size: 30px;
+    font-weight: 600;
+}
+.content p{
+    font-size: 20px;
+    font-weight: 500;
+}
+/* project section css */
+
+.project{
+    display: flex;
+    width: 100%;
+    background: #fafcff;
+    
+}
+.projecet_text{
+    text-align: center;
+    background: #f8fbfe;
+}
+.single_project img{
+    width: 100%;
+}
+
+
+
+
